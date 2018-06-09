@@ -32,10 +32,10 @@ import org.springframework.web.servlet.view.JstlView;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan(basePackages="sg.iss.ClubApplication")
+@ComponentScan(basePackages="sg.iss.team7clubapp")
 @PropertySource({ "classpath:application.properties",
 		"classpath:/i18n/messages.properties" })
-@EnableJpaRepositories("sg.iss.ClubApplication.repo")
+@EnableJpaRepositories("sg.iss.team7clubapp.repo")
 public class WebAppConfig extends WebMvcConfigurerAdapter {
 
 	private static final String PROPERTY_NAME_DATABASE_DRIVER = "db.driver";
