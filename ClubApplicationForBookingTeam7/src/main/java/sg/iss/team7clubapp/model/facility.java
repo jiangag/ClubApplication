@@ -1,4 +1,4 @@
-package sg.iss.ClubApplication.model;
+package sg.iss.team7clubapp.model;
 
 public class facility {
 

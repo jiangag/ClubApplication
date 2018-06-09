@@ -1,4 +1,4 @@
-package sg.iss.ClubApplication.init;
+package sg.iss.team7clubapp.init;
 
 import java.util.Properties;
 
